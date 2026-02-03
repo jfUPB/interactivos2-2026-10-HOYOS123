@@ -150,3 +150,6 @@ $: sound("<bd>*4, hh*8")
 
 # Bitácora de reflexión
 
+<img width="1387" height="509" alt="image" src="https://github.com/user-attachments/assets/d018447b-93b1-4eb3-a9bb-c79b0a1ddce4" />
+
+
