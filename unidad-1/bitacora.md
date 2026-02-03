@@ -1,6 +1,10 @@
 # Unidad 1
 
 # Bitácora de proceso de aprendizaje
+<img width="1083" height="977" alt="image" src="https://github.com/user-attachments/assets/26e34fc6-4292-4b27-8066-b12766f2e270" />
+
+<img width="463" height="871" alt="image" src="https://github.com/user-attachments/assets/bef180c7-4881-4f8c-86fa-2c176a160744" />
+
 
 
 # Bitácora de aplicación
@@ -145,3 +149,4 @@ $: sound("<bd>*4, hh*8")
 ```
 
 # Bitácora de reflexión
+
