@@ -29,9 +29,7 @@ npx pnpm dev
 
 Estos ajustes me permitieron continuar sin más problemas.
 
-### Actividad 2
-
-## Bitácora de aplicación 
+### Actividad 2 
 
 La sincronización audio-visual se logra mediante la ejecución simultánea de tres componentes: Eñ REPL de Strudel como generador de audio y controlador temporal, el oscBridge como intermediario que transmite los eventos sonoros, y los visuales desarrollados en p5.js. El bridge permite que los datos del audio se envíen en tiempo real a los visuales, los cuales reaccionan de forma inmediata al pulso y a los cambios rítmicos, evidenciando una relación directa entre sonido y animación.
 
@@ -39,6 +37,10 @@ Los visuales no funcionan de manera autónoma, sino que dependen de los eventos 
 
 También aprendí que puedo tener varias visuales activas al mismo tiempo. Esto es porque todas pueden recibir simultáneamente los datos enviados por el oscBridge, se vuelve un flujo de información compartida. Aunque, cada visual interpreta los datos de manera distinta, lo que permite que varias animaciones, distintas entre sí, reaccionen al mismo audio y pulso.
 
+---
+
+## Bitácora de aplicación
 
 ## Bitácora de reflexión
+
 
