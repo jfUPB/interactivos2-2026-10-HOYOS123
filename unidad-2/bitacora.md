@@ -38,13 +38,16 @@ Los visuales no funcionan de manera autónoma, sino que dependen de los eventos 
 También aprendí que puedo tener varias visuales activas al mismo tiempo. Esto es porque todas pueden recibir simultáneamente los datos enviados por el oscBridge, se vuelve un flujo de información compartida. Aunque, cada visual interpreta los datos de manera distinta, lo que permite que varias animaciones, distintas entre sí, reaccionen al mismo audio y pulso.
 
 ### Actividad 3
+
 Evidencia en video de lo realizado:  
 [Ver video en YouTube]([https://www.youtube.com/watch?v=TU_ID_DE_VIDEO](https://youtu.be/mkfk2rZK0xM))
+
 ---
 
 ## Bitácora de aplicación
 
 ## Bitácora de reflexión
+
 
 
 
