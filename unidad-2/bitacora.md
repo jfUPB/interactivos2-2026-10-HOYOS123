@@ -39,14 +39,16 @@ También aprendí que puedo tener varias visuales activas al mismo tiempo. Esto 
 
 ### Actividad 3
 
-Evidencia en video de lo realizado:  
-[Ver video en YouTube]([https://www.youtube.com/watch?v=TU_ID_DE_VIDEO](https://youtu.be/mkfk2rZK0xM))
+#### 
+
+
 
 ---
 
 ## Bitácora de aplicación
 
 ## Bitácora de reflexión
+
 
 
 
