@@ -37,10 +37,49 @@ Los visuales no funcionan de manera autónoma, sino que dependen de los eventos 
 
 También aprendí que puedo tener varias visuales activas al mismo tiempo. Esto es porque todas pueden recibir simultáneamente los datos enviados por el oscBridge, se vuelve un flujo de información compartida. Aunque, cada visual interpreta los datos de manera distinta, lo que permite que varias animaciones, distintas entre sí, reaccionen al mismo audio y pulso.
 
-### Actividad 3
-
 #### Evidencia en video de lo realizado:  
 [Ver video en YouTube](https://youtu.be/mkfk2rZK0xM)
+
+### Actividad 3
+
+#### Descripción de la modificación realizada
+Realicé una modificación al caso de estudio original incorporando una nueva capa sonora grave que no estaba presente inicialmente. Al patrón rítmico base, construido con sonidos de la banca **TR-909**, añadí una línea de bajo independiente generada a partir de un sintetizador tipo **GM synth bass**.  
+
+Esta línea de bajo utiliza una secuencia de notas graves y se reproduce a una velocidad mucho más lenta que la percusión.
+
+#### Relación entre audio y visuales reactivas
+La inclusión del bajo cambia la forma en que el sonido y las visuales se relacionan, ya que agrega una capa sonora diferente al ritmo principal. Mientras la percusión marca el pulso y los golpes rápidos, el bajo se mueve de manera más lenta y constante.
+
+#### Evidencia
+- Capturas:
+<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/002ea7d8-6e83-4b99-a0f2-e3e8e5f15fee" />
+
+- Evidencia en video de lo realizado:  
+[Ver video en YouTube](https://youtu.be/1Ji4ibCflxk)
+
+
+### Código utilizado
+```
+setcps(0.5)
+
+const pat = s("[bd*2 sd hh oh]").bank("tr909")
+
+bass: note("d#2 e2 g2 c2").slow(8)
+    .sound("gm_synth_bass_1")
+    .gain(.2)
+    ._punchcard()
+
+$: stack(
+  pat
+    .gain('0.5')
+    .every(4, fast(2)),
+  pat
+    .osc()
+    .every(6, slow(2)),
+)
+```
+
+
 
 
 
@@ -49,6 +88,7 @@ También aprendí que puedo tener varias visuales activas al mismo tiempo. Esto 
 ## Bitácora de aplicación
 
 ## Bitácora de reflexión
+
 
 
 
