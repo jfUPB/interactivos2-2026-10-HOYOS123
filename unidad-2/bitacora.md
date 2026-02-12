@@ -125,15 +125,11 @@ La sincronización se implementó usando:
 
 ### Flujo de comunicación
 
-Strudel genera audio →\
-Strudel envía mensaje OSC →\
-oscBridge recibe y reenvía →\
-p5.js interpreta →\
-Visual cambia en tiempo real
+Strudel genera audio → Strudel envía mensaje OSC → oscBridge recibe y reenvía → p5.js interpreta → Visual cambia en tiempo real
 
 ------------------------------------------------------------------------
 
-## Código en Strudel (Audio + Envío OSC)
+## Código en Strudel
 
 ```
 // Pulso grave
@@ -171,6 +167,7 @@ $: sound("<bd>*4, hh*8")
 
 
 ## Bitácora de reflexión
+
 
 
 
