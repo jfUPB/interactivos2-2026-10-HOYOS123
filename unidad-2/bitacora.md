@@ -89,8 +89,89 @@ $: stack(
 
 ### Actividad 4
 
+#### Mejora de pieza de audio interactivo con visuales reactivas
+
+---
+
+### Proceso de mejora
+
+En la unidad anterior desarrollé una pieza de audio interactivo en
+Strudel compuesta por cuatro capas:
+
+-   Armonía con clarinet y supersaw
+-   Bajo eléctrico
+-   Percusión (bd + hh)
+
+Para esta nueva fase, el objetivo fue incorporar **visuales reactivas
+sincronizadas** con los eventos sonoros. La mejora consistió en:
+
+-   Enviar eventos rítmicos desde Strudel mediante OSC.
+-   Utilizar un bridge (oscBridge) para comunicar Strudel con p5.js.
+-   Programar visuales que reaccionan en tiempo real a:
+    -   Golpe de bombo
+    -   Bajo
+    -   Armonía
+    -   Hi-hat
+
+------------------------------------------------------------------------
+
+## Implementación de la sincronización
+
+La sincronización se implementó usando:
+
+-   **Strudel → OSC**
+-   **oscBridge (Node.js)**
+-   **p5.js para visuales**
+
+### Flujo de comunicación
+
+Strudel genera audio →\
+Strudel envía mensaje OSC →\
+oscBridge recibe y reenvía →\
+p5.js interpreta →\
+Visual cambia en tiempo real
+
+------------------------------------------------------------------------
+
+## Código en Strudel (Audio + Envío OSC)
+
+```
+// Pulso grave
+$: s("sbd!4")
+  .gain(0.9)
+  .osc("/kick", 1)
+  ._scope()
+
+// ARMONÍA
+$: note(`<
+         [0,3,7]
+         [12,3,7]
+         [12,15,7]
+         [12,15,19]
+       >*8`
+     .add("<c4 d4 f4 c5>")
+  )
+  .room(0.4)
+  .gain(0.35)
+  .sound("gm_clarinet, supersaw")
+  .osc("/chords", 1)
+
+// BAJO
+$: note("<c2>*2 <d2>*2 <f2>*2 <c3>*2")
+  .sound("gm_electric_bass_finger")
+  .gain(2)
+  .legato(0.4)
+  .osc("/bass", 1)
+
+// Percusión
+$: sound("<bd>*4, hh*8")
+  .gain(0.6)
+  .osc("/hihat", 1)
+```
+
 
 ## Bitácora de reflexión
+
 
 
 
