@@ -168,6 +168,7 @@ $: sound("<bd>*4, hh*8")
 
 ## Bitácora de reflexión
 
+a
 
 
 
