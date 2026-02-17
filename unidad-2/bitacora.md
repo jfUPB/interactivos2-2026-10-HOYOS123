@@ -407,7 +407,9 @@ function windowResized() {
 
 ## Bitácora de reflexión
 
-a
+<img width="1024" height="768" alt="Grafica Diagrama de Flujo Corporativo Juvenil Azul (1)" src="https://github.com/user-attachments/assets/6febb1e5-416c-44f8-8269-d2749bad4c50" />
+
+
 
 
 
