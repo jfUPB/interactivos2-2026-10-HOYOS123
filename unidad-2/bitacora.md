@@ -401,9 +401,14 @@ function windowResized() {
 </html>
 ```
 
+### Evidencias:
+[Ver video en YouTube](https://youtu.be/eX68K47QJG0)
+
+
 ## Bitácora de reflexión
 
 a
+
 
 
 
