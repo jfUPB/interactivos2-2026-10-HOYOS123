@@ -4,7 +4,7 @@
 
 Estas son las visuales de la unidad 2 sin el openstage control aún:
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -226,6 +226,10 @@ function windowResized() {
 ```
 
 ## Bitácora de aplicación 
+
+El código de las visuales debe estar en la carpeta website public del servidor de strudel:
+
+<img width="1086" height="356" alt="image" src="https://github.com/user-attachments/assets/7466bb8b-65ea-4646-b680-73a44852d9cf" />
 
 El código de las visuales quedó así:
 
@@ -525,5 +529,6 @@ Y el launcher del openstage control quedó configurado así:
 
 
 ## Bitácora de reflexión
+
 
 
