@@ -2,6 +2,8 @@
 
 ## Bitácora de proceso de aprendizaje
 
+Estas son las visuales de la unidad 2 sin el openstage control aún:
+
 ```
 <!DOCTYPE html>
 <html>
@@ -24,66 +26,33 @@ let spirals = [];
 let lastDelta = 0;
 let history = [];
 
-let rWarp;
-let gWarp;
-
 function setup() {
   createCanvas(windowWidth, windowHeight);
   frameRate(60);
 
-  socket = new WebSocket('ws://localhost:8081');
-
-  //let socketOpenStage = new WebSocket('ws://localhost:8082');
-  /*
-    socketOpenStage.onmessage = (event) => {
-    const data = JSON.parse(event.data);
-
-    if (data.address === "/xy_1") {
-      rWarp = Number(data.args?.[0] ?? 255);
-      gWarp = Number(data.args?.[1] ?? 255);
-    }
-  };
-  
-  
-  */
-
+  const socket = new WebSocket('ws://localhost:8081');
 
   socket.onmessage = (event) => {
     const msg = JSON.parse(event.data);
+    if (msg.address !== "/dirt/play") return;
+    if (!msg.args) return;
 
-    if (msg.address === "/dirt/play") {
+    let s = "";
 
-      if (!msg.args) return;
-
-      let s = "";
-
-      for (let i = 0; i < msg.args.length; i += 2) {
-        if (msg.args[i] === "s") {
-          s = msg.args[i + 1];
-        }
+    for (let i = 0; i < msg.args.length; i += 2) {
+      if (msg.args[i] === "s") {
+        s = msg.args[i + 1];
       }
-
-      if (!s) return;
-
-      eventQueue.push({
-        timestamp: Math.floor(msg.timestamp),
-        s: s
-      });
-
-      eventQueue.sort((a, b) => a.timestamp - b.timestamp);
     }
 
-    else if (msg.address === "/fader_1") {
-      oscFader = Number(msg.args?.[0] ?? 0);
-      status = "fader_1";
-    }
+    if (!s) return;
 
-    else if (msg.address === "/xy_1") {
-      oscX = Number(msg.args?.[0] ?? 0);
-      oscY = Number(msg.args?.[1] ?? 0);
-      status = "xy_1";
-    }
+    eventQueue.push({
+      timestamp: Math.floor(msg.timestamp),
+      s: s
+    });
 
+    eventQueue.sort((a, b) => a.timestamp - b.timestamp);
   };
 }
 
@@ -172,11 +141,11 @@ function draw() {
   pop();
 
   // DEBUG
-fill(255);
-noStroke();
-textSize(14);
-text(`Último error: ${lastDelta.toFixed(2)} ms`, 20, 30);
-text(`FPS: ${Math.round(frameRate())}`, 20, 50);
+  fill(255);
+  noStroke();
+  textSize(14);
+  text(`Último error: ${lastDelta.toFixed(2)} ms`, 20, 30);
+  text(`FPS: ${Math.round(frameRate())}`, 20, 50);
 }
 
 // ======================
@@ -254,7 +223,6 @@ function windowResized() {
 </script>
 </body>
 </html>
-
 ```
 
 ## Bitácora de aplicación 
@@ -262,3 +230,4 @@ function windowResized() {
 
 
 ## Bitácora de reflexión
+
