@@ -320,8 +320,8 @@ function draw() {
   fill(255);
   noStroke();
   textSize(14);
-  text(Último error: ${lastDelta.toFixed(2)} ms, 20, 30);
-  text(FPS: ${Math.round(frameRate())}, 20, 50);
+  text(`Último error: ${lastDelta.toFixed(2)} ms`, 20, 30);
+  text(`FPS: ${Math.round(frameRate())}`, 20, 50);
 }
 
 // ======================
@@ -408,6 +408,7 @@ function windowResized() {
 ## Bitácora de reflexión
 
 <img width="1024" height="768" alt="Grafica Diagrama de Flujo Corporativo Juvenil Azul (1)" src="https://github.com/user-attachments/assets/6febb1e5-416c-44f8-8269-d2749bad4c50" />
+
 
 
 
