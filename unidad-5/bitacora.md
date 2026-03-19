@@ -67,6 +67,7 @@ Uso de sonido digital, patrones y estética geométrica
 Relación fuerte entre repetición, estructura e intensidad
 
 https://www.youtube.com/watch?v=5y7WZk_IVqI
+
 ---
 
 2. Alva Noto
@@ -84,6 +85,7 @@ Ejemplos de visuales generativas reactivas al sonido
 Referente técnico para la implementación del proyecto
 
 https://derivative.ca/
+
 ---
 
 ### Resumen del concepto
