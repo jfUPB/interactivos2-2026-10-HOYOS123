@@ -47,15 +47,11 @@ No interactúa directamente con el sistema, pero su percepción está constantem
 
 #### Componentes del sistema
 
-Strudel → Genera el audio (groove, variaciones, glitch)
+Strudel → Para la parte del Audio
 
-Análisis de audio → Extrae datos (intensidad, ritmo, etc.)
+TouchDesigner → Para la parte visual
 
-TouchDesigner → Genera visuales geométricas
-
-Controlador MIDI (Alesis Vortex) → Permite intervenir el sistema en tiempo real
-
-Salida visual → Proyección o pantalla
+Controlador MIDI (Alesis Vortex) → Con el que voy a controlar el sistema en tiempo real
 
 ---
 
