@@ -1,6 +1,11 @@
 # Unidad 4
 
 ## Bitácora de proceso de aprendizaje
+
+
+
+## Bitácora de aplicación 
+
 Aquí se clona el servidor de Strudel, se instalan las dependencias y se inicializa el servidor
 <img width="626" height="943" alt="image" src="https://github.com/user-attachments/assets/9cec0ad8-1464-49c1-a737-47cb3bef66a8" />
 
@@ -18,9 +23,5 @@ Aquí en el Visual Studio Code se abre la terminal y se crea un puerto para que 
 
 Esta es una imagen de la aplicación Open tage Control
 <img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/406481f5-8f99-4aae-9550-a0569798671c" />
-
-
-## Bitácora de aplicación 
-
 
 ## Bitácora de reflexión
