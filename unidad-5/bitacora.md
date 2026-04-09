@@ -1,7 +1,7 @@
 # Unidad 5
 ## Bitácora de proceso de aprendizaje
 
-# Bitácora de Proyecto: Experiencia Interactiva (Strudel + TouchDesigner + Kinect)
+# Experiencia Interactiva (Strudel + TouchDesigner + Kinect)
 
 ### Actividad 01: Definición del Concepto
 
