@@ -33,7 +33,9 @@ El público actúa como un **participante activo** o co-creador efímero. Yo pro
 * **Stanislav Glazov:** Sus técnicas de *feedback loops* en TouchDesigner son la base de las visuales orgánicas y abstractas que estoy desarrollando.
 
 https://www.youtube.com/watch?v=ehjklqL6g84
+
 https://www.youtube.com/watch?v=SEoyw8Slclc&list=PLyJbNObFGgIEkEV6_vf_J4pDolv81MzTp&index=9
+
 https://youtube.com/shorts/0geQtNQQpx4?si=jBh7LQA_kkuGuqLA
 
 ---
