@@ -1,94 +1,39 @@
 # Unidad 5
 ## Bitácora de proceso de aprendizaje
 
-### Actividad 01 – Definición del concepto
+# Bitácora de Proyecto: Experiencia Interactiva (Strudel + TouchDesigner + Kinect)
+
+### Actividad 01: Definición del Concepto
+
+**1. ¿Qué quiero comunicar o provocar?**
+La idea es que quiero mezclar la música con una estética de error digital o *glitch*. La intención es que la gente sienta que sus movimientos físicos tienen un impacto real en lo que escuchan y ven, rompiendo esa barrera entre el humano y la máquina.
+
+**2. ¿En qué contexto se presentará?**
+Se presentará en una **sala oscura**. Esto es clave para que las visuales proyectadas desde TouchDesigner sean la única fuente de luz, logrando que el público se sienta sumergido en el entorno digital y que las texturas se proyecten directamente sobre ellos.
+
+**3. ¿Cuál es la experiencia que deseo para el público?**
+Busco una experiencia **participativa e inmersiva**. No quiero que el público solo mire una pantalla; quiero que se sientan invitados a moverse y que descubran que, al bailar o desplazarse, el sistema les responde cambiando el sonido o deformando las visuales en tiempo real.
+
+**4. ¿Qué rol tendrá el público?**
+El público actúa como un **participante activo** o co-creador efímero. Yo programo las reglas y el código base en Strudel y TouchDesigner, pero ellos son los que "terminan" la obra. Sin su movimiento frente al kinect, la obra se queda estática; ellos son los que modulan la energía de la presentación.
 
 ---
 
-#### ¿Qué quiero comunicar o provocar con mi obra?
-
-Quiero crear una experiencia inmersiva donde el público sienta que está dentro de un universo sonoro que evoluciona constantemente. Este universo parte de un estado organizado y estable, pero puede transformarse y desestabilizarse, generando sensaciones de tensión, cambio e incertidumbre.
-
-La intención es explorar la relación entre orden y caos a través del sonido y la imagen, mostrando cómo un sistema aparentemente estructurado puede volverse inestable.
-
----
-
-#### ¿En qué contexto se presentará?
-
-La obra está pensada para presentarse en un espacio cerrado (tipo salón) con iluminación controlada o baja, donde el sonido tenga un papel protagonista.
-
-Idealmente, el espacio contará con:
-
-- Bocinas que permitan una experiencia envolvente  
-- Poca cantidad de público  
-- Un ambiente íntimo que facilite la inmersión  
+### Referentes de Inspiración
+1.  **Ryoji Ikeda:** Me trama mucho cómo usa los datos crudos y el ruido para crear visuales minimalistas pero potentes. Es el referente máximo del "error" convertido en estética.
+2.  **Chris Milk (The Treachery of Sanctuary):** Es el ejemplo perfecto de cómo usar la Kinect para que la sombra de la gente se transforme en algo artístico y simbólico.
+3.  **Yaxu (Alex McLean):** Creador de TidalCycles. Me inspira porque demuestra que el *live coding* puede ser bailable y tener mucho *groove*.
 
 ---
 
-#### ¿Cuál es la experiencia que deseo para el público?
+### Actividad 02: Investigación de Referentes
 
-La experiencia es principalmente **inmersiva y contemplativa**, donde el público no solo observa, sino que percibe que está “dentro” del sistema audiovisual.
-
-A lo largo de la experiencia, el público experimenta:
-
-- Estados de estabilidad (patrones claros y repetitivos)  
-- Transiciones hacia estados más inestables o caóticos  
-- Cambios en la atmósfera generados en tiempo real  
+**Obras y proyectos relacionados:**
+* **Movimiento Algorave:** Ver cómo otros artistas usan código en vivo para que la gente baile en clubes. Es relevante porque mi proyecto busca esa misma energía de fiesta y movimiento.
+* **Stanislav Glazov:** Sus técnicas de *feedback loops* en TouchDesigner son la base de las visuales orgánicas y abstractas que estoy desarrollando.
 
 ---
 
-#### ¿Qué rol tendrá el público?
-
-El público tendrá un rol de **observador inmerso**.
-
-No interactúa directamente con el sistema, pero su percepción está constantemente influenciada por los cambios en el entorno sonoro y visual.
-
----
-
-#### Componentes del sistema
-
-Strudel → Para la parte del Audio
-
-TouchDesigner → Para la parte visual
-
-Controlador MIDI (Alesis Vortex) → Con el que voy a controlar el sistema en tiempo real
-
----
-
-#### Referentes (artísticos y técnicos)
-
-1. Ryoji Ikeda
-
-Uso de sonido digital, patrones y estética geométrica
-Relación fuerte entre repetición, estructura e intensidad
-
-https://www.youtube.com/watch?v=5y7WZk_IVqI
-
----
-
-2. Alva Noto
-
-Uso de glitch, minimalismo y estructuras rítmicas
-Exploración de sistemas sonoros y error digital
-
-https://www.youtube.com/watch?v=tTgu3EsyHv8
-
----
-
-3. TouchDesigner (audio-reactive visuals)
-
-Ejemplos de visuales generativas reactivas al sonido
-Referente técnico para la implementación del proyecto
-
-https://derivative.ca/
-
----
-
-### Resumen del concepto
-
-La obra consiste en un universo audiovisual geométrico generado en tiempo real, donde el sonido define su comportamiento. Este sistema evoluciona entre estados de orden y caos, y puede ser intervenido en vivo para alterar su estabilidad, generando una experiencia inmersiva para el espectador.
-
----
 ## Bitácora de aplicación 
 
 
