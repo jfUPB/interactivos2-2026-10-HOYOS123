@@ -2,7 +2,15 @@
 
 ## Bitácora de proceso de aprendizaje
 
+Al analizar el repositorio de ejemplo (sfiSocketioDesktopMobile), comprendí que la clave para integrar la interacción del público en tiempo real s el uso de WebSocketsm específicamente a través de la librería Socket.io.
 
+Aprení que el sistema requiere de un servidor web adicional (En este caso, corriendo en Node.js) que actúe como intermediario. Este servidor cumple condos funciones:
+
+- Servir la interfaz móvil: Expone una página web simple (mobile/index.html) que el público abre en sus celulares.
+
+- Gestionar la comunicación bidireccional: Captura los eventos táctiles (Touch X; Touch Y) Del celular y los reenvía instantáneamente a nuestra visualización principal en p5.js.
+
+Un aspecto técnico crcucial que identifiqué en mis pruebas (y documenté en las siguientes capturas de pantalla de la bitácora de aplicación) es la gestión de los puertos. Como ya estoy utilizando el puerto 8081 para Strudel y el 8082 para Open Stage ontrol, configuré el servidor de Socket.io para correr en el puerto 3000. Además, utilicé la funcionalidad Port Forwarding de Visual Studio Code para generar una URL pública segura (devtunnels.ms), permitiendo que cualquier celular conectado a internet pueda interactuar con la obra sin necesidad de estar en la misma red local.
 
 ## Bitácora de aplicación 
 
