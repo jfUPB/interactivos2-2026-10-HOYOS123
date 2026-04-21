@@ -4,7 +4,7 @@
 
 Al analizar el repositorio de ejemplo (sfiSocketioDesktopMobile), comprendí que la clave para integrar la interacción del público en tiempo real s el uso de WebSocketsm específicamente a través de la librería Socket.io.
 
-Aprení que el sistema requiere de un servidor web adicional (En este caso, corriendo en Node.js) que actúe como intermediario. Este servidor cumple condos funciones:
+Aprendí que el sistema requiere de un servidor web adicional (En este caso, corriendo en Node.js) que actúe como intermediario. Este servidor cumple condos funciones:
 
 - Servir la interfaz móvil: Expone una página web simple (mobile/index.html) que el público abre en sus celulares.
 
@@ -26,8 +26,20 @@ Después de instalar el SocketIoDesktopMobile se abre el Visual Studio Code
 Aquí se instalan las dependencias en el caso de estudio StrudelP5-tests y se lanza el Bridge
 <img width="579" height="334" alt="image" src="https://github.com/user-attachments/assets/a9526d0e-f604-40dd-9f21-cd1a6a0b59b4" />
 
+Para esta fase final de la obra, mi decisión de diseño se centró en crear una interacción colectiva que complementara la estructura rítmica automáticoa de Strudel y mi control manual de intensidad.
+
+Implementé los siguientes cambios en el código de mi visualiación principal (VisualesHoyos.html), como se puede ver en la siguiente captura de Visual Studio Code.
+
 Aquí en el Visual Studio Code se abre la terminal y se crea un puerto para que los celulares del público puedan conectarse
 <img width="1279" height="1028" alt="image" src="https://github.com/user-attachments/assets/e8e135c3-c891-403b-8ea3-4e9fbdd81815" />
+
+Modifiqué el setup() para conectarme a tres fuentes de datos simultáneamente:
+
+new WebSocket('ws://localhost:8082') --> Para recibir los valores de los faders de Open Stage Control que controlan el color y el grosor.
+
+io('http://localhost:3000') (vía Socket.io) para recibir los datos de interacción del público.
+
+También creé variables globales (let touchX = 0; let touchY = 0; que se actualizan continuamente con los datos del públio. Decidí mapear estas variables para generar un efecto visual potente: Struel define cuando aparecen las formas, yo defino cómo se ven, y el públio define dónde se ubican en la pantalla, moviendo el foco de atención de la composición on el dedo.
 
 Esta es una imagen de la aplicación Open tage Control
 <img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/406481f5-8f99-4aae-9550-a0569798671c" />
