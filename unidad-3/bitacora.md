@@ -225,6 +225,10 @@ function windowResized() {
 </html>
 ```
 
+---
+---
+
+
 ## Bitácora de aplicación 
 
 El código de las visuales debe estar en la carpeta website public del servidor de strudel:
@@ -470,7 +474,16 @@ function windowResized() {
 </html>
 ```
 
+---
+
+### Actividad 1
+Instalé Open Stage Control y probé el envío de datos básicos hacia el puerto 9000 para verificar que el Bridge.js los recibía correctamente.
+
 Para que esto funcione necesité modificar el bridge de OpenStage control para adpatar los puertos. Recibo OSC por el 9000 y reenvío por el 8082:
+
+Y el launcher del openstage control quedó configurado así:
+
+<img width="652" height="338" alt="image" src="https://github.com/user-attachments/assets/e986bcd2-60f7-4938-ae6c-82fbae58f529" />
 
 ```js
 const { WebSocket } = require("ws");
@@ -522,11 +535,14 @@ udpPort.on("ready", () => {
 });
 ```
 
-Y el launcher del openstage control quedó configurado así:
-
-<img width="652" height="338" alt="image" src="https://github.com/user-attachments/assets/e986bcd2-60f7-4938-ae6c-82fbae58f529" />
+---
 
 
+### Actividad 2:
+
+Al controlar las visuales decidí cambiarle el valor al grosor del pulso, vara que se viera un efecto de una especie de "bombo" claro. De ahí taté de cambiar un poco el color de los cuadrados pequeños que aparecían randomizados en la pantalla.
+
+---
 
 ## Bitácora de reflexión
 
