@@ -47,5 +47,16 @@ https://youtube.com/shorts/0geQtNQQpx4?si=jBh7LQA_kkuGuqLA
 
 ## Bitácora de aplicación 
 
+### 1. ¿Cómo quedó el sonido?
+El audio que armé en Strudel quedó con una base rítmica y armónica bastante **sólida**. Al principio quería que sonara más "roto" (glitch), pero decidí dejarlo así por ahora porque me gusta el ambiente más **tranquilo e inmersivo** que crea. El clarinete y el bajo profundo funcionan muy bien juntos. Prefiero dejar la parte del "error digital" para las visuales en **TouchDesigner**, que se rompan visualmente mientras el sonido mantiene la atmósfera.
+
+### 2. ¿Sigue sirviendo el diagrama?
+Sí, el primer diagrama conceptual sigue siendo totalmente válido. La forma en que organicé el código en Strudel (con esos 4 stacks separados) me confirma que voy por buen camino. Esto me va a permitir enviar datos distintos a TouchDesigner para que el bajo mueva una cosa, la melodía otra, y la percusión otra, logrando que audio y video vayan de la mano.
+
+### 3. Principales problemas y cómo los arreglé
+* **Que no sonara aburrido:** Al principio la melodía era muy repetitiva. Lo solucioné probando diferentes combinaciones de patrones en Strudel hasta encontrar variaciones que mantuvieran el movimiento sin perder la estructura.
+* **El volumen:** Con todas las capas sonando a la vez, el audio se saturaba y sonaba mal. Tuve que ajustar los `gain` (volúmenes) de cada stack al final para que la mezcla quedara limpia.
+* **Ver qué pasaba:** Necesitaba estar seguro de que cada sonido generaba un trigger claro para la visualización. Usé las herramientas visuales de Strudel (`_scope()`) para monitorear las ondas y confirmar que todo estaba en orden.
+
 
 ## Bitácora de reflexión
