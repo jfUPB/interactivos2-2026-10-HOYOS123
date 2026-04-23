@@ -61,3 +61,6 @@ Gracias a **TDStrudelSync**, la coherencia es total. Ahora la reacción visual e
 El mayor reto de esta unidad fue lograr que el audio de Strudel y las visuales de TouchDesigner fueran realmente de la mano. Al principio intenté usar el mismo método de las unidades pasadas, corriendo el servidor de Strudel de forma local, pero era un proceso muy pesado y largo. Gracias al componente TDStrudelSync que nos dio el profesor, la sincronización se volvió muchísimo más sencilla y precisa. Esto me permitió dejar de pelear con la conexión técnica y concentrarme en lo importante: diseñar cómo cada sonido de Strudel transforma las visuales para que la experiencia sea realmente impactante.
 
 ### Arquitectura del Sistema Final (V2)
+
+<img width="894" height="668" alt="image" src="https://github.com/user-attachments/assets/9162861c-2030-4b9b-bdba-68361a50539f" />
+
