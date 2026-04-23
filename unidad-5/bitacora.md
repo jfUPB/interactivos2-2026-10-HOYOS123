@@ -17,6 +17,11 @@ Busco una experiencia **participativa e inmersiva**. No quiero que el público s
 **4. ¿Qué rol tendrá el público?**
 El público actúa como un **participante activo** o co-creador efímero. Yo programo las reglas y el código base en Strudel y TouchDesigner, pero ellos son los que "terminan" la obra. Sin su movimiento frente al kinect, la obra se queda estática; ellos son los que modulan la energía de la presentación.
 
+**5. Diagrama de arquitectura:**
+
+<img width="830" height="622" alt="image" src="https://github.com/user-attachments/assets/63c7704e-bc94-4126-8c24-5e39d87fc942" />
+
+
 ---
 
 ### Referentes de Inspiración
