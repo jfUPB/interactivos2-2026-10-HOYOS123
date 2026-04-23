@@ -34,6 +34,9 @@ Estas decisiones sirven al concepto porque buscan que la obra se sienta como un 
 * **Ajustes:** Tuve que moderar el Feedback con un **Level TOP** para evitar que la pantalla se saturara de blanco demasiado rápido.
 * **Elección final:** La combinación de **Noise + Feedback + Limit** es la que mejor representa mi concepto de "organismo digital" imperfecto.
 
+### IMPORTANTE
+Debo decir que a este punto no he conectado el Kinect a la obra... Espero conectarlo más adelante, por ahora me estoy concentrando en que todo funcione, que todo se sincronice... para que después solo sea conectar el Kinect y hacer que los datos que reciba el kinect, también se sincronice con mi obra. Si es posible...
+
 ---
 
 ## Bitácora de aplicación 
