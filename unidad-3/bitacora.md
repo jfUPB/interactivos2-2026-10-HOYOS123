@@ -546,5 +546,6 @@ Al controlar las visuales decidí cambiarle el valor al grosor del pulso, vara q
 
 ## Bitácora de reflexión
 
+<img width="828" height="623" alt="image" src="https://github.com/user-attachments/assets/3f40f2b0-ff24-4f43-a08f-5f8104c3250b" />
 
 
