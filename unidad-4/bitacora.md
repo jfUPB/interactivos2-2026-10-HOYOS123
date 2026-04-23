@@ -45,3 +45,6 @@ Esta es una imagen de la aplicación Open tage Control
 <img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/406481f5-8f99-4aae-9550-a0569798671c" />
 
 ## Bitácora de reflexión
+
+<img width="832" height="622" alt="image" src="https://github.com/user-attachments/assets/9008df57-f33e-43cd-9707-55888d0492a7" />
+
